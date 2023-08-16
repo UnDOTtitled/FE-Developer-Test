@@ -8,7 +8,7 @@ In your codebase you will see a theme called “Pippip” – please do your the
 
 Once finished please zip up your theme directory email to [robert.lambert@un.titled.co.uk](robert.lambert@un.titled.co.uk)
 
-##Spec
+###Spec
 
 Your site contains two content types:
 -	Homepage
