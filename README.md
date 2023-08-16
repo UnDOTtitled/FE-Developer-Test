@@ -1,75 +1,50 @@
-<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
+# Un.titled Front End Developer test project
 
-Drupal is an open source content management platform supporting a variety of
-websites ranging from personal weblogs to large community-driven websites. For
-more information, visit the Drupal website, [Drupal.org][Drupal.org], and join
-the [Drupal community][Drupal community].
+## Objectives
 
-## Contributing
 
-Drupal is developed on [Drupal.org][Drupal.org], the home of the international
-Drupal community since 2001!
+You need to setup Drupal and install the site and modules using composer, then using configuration management sync the current configuration.
+In your codebase you will see a theme called “Pippip” – please do your theme work inside this folder.
 
-[Drupal.org][Drupal.org] hosts Drupal's [GitLab repository][GitLab repository],
-its [issue queue][issue queue], and its [documentation][documentation]. Before
-you start working on code, be sure to search the [issue queue][issue queue] and
-create an issue if your aren't able to find an existing issue.
+Once finished please zip up your theme directory email to [robert.lambert@un.titled.co.uk](robert.lambert@un.titled.co.uk)[robert.lambert@un.titled.co.uk](robert.lambert@un.titled.co.uk)
 
-Every issue on Drupal.org automatically creates a new community-accessible fork
-that you can contribute to. Learn more about the code contribution process on
-the [Issue forks & merge requests page][issue forks].
+##Spec
 
-## Usage
+Your site contains two content types:
+-	Homepage
+-	Page
 
-For a brief introduction, see [USAGE.txt](/core/USAGE.txt). You can also find
-guides, API references, and more by visiting Drupal's [documentation
-page][documentation].
+The Page content type has 2 fields along with its title:
+-	Banner Image
+-	Body
 
-You can quickly extend Drupal's core feature set by installing any of its
-[thousands of free and open source modules][modules]. With Drupal and its
-module ecosystem, you can often build most or all of what your project needs
-before writing a single line of code.
+The Homepage content type has 2 fields along with its title:
+-	Page references – An entity reference to the Page content type
+-	Page reference title – As shown in the design above (Shop by activity)
 
-## Changelog
+Your developer task is on Homepage to display the Page entity references like above, as well as use the Page reference title – Each Page entity is using a “Signpost” view mode which currently is showing all 3 fields in the configuration.
+Each Signpost will need to contain:
+-	The banner image
+-	The title of the entity
+-	The entire card will need linking to the entity
+ 
+The design does not have to exactly match what is given above but try and style the above design to follow these guidelines:
+-	The font family does not matter, you can choose one of your liking
+-	The title has a font size of 24px and a margin bottom of 40px
+-	Width of all three cards combined should be 1450px with a gap of 25px in between each card
+-	Each card should be approximately 468px in width and the title should be 18px with a margin top of 15px
+-	The entire block should sit in the middle of the page with a background.
+-	The background it is sitting on has the hex code #eeeeee
+-	On mobile device could all these cards please stack into one column
+-	The image for the view mode is not using an image style, this is not required for your task, but make sure the image isn’t stretched.
 
-Drupal keeps detailed [change records][changelog]. You can search Drupal's
-changes for a record of every notable breaking change and new feature since
-2011.
+You are not required to style the full view mode of the individual page content type themselves – The full view mode of the page should still show the following:
+-	Title	
+-	Body
+-	Banner Image
 
-## Security
+Please ensure that if body copy is added, that it only appears on the full view mode and not on the signpost teaser.
+A basic css file and templates are in the theme but feel free to introduce a CSS preprocessor and any templates to complete your task.
 
-For a list of security announcements, see the [Security advisories
-page][Security advisories] (available as [an RSS feed][security RSS]). This
-page also describes how to subscribe to these announcements via email.
+Good luck!
 
-For information about the Drupal security process, or to find out how to report
-a potential security issue to the Drupal security team, see the [Security team
-page][security team].
-
-## Need a helping hand?
-
-Visit the [Support page][support] or browse [over a thousand Drupal
-providers][service providers] offering design, strategy, development, and
-hosting services.
-
-## Legal matters
-
-Know your rights when using Drupal by reading Drupal core's
-[license](/core/LICENSE.txt).
-
-Learn about the [Drupal trademark and logo policy here][trademark].
-
-[Drupal.org]: https://www.drupal.org
-[Drupal community]: https://www.drupal.org/community
-[GitLab repository]: https://git.drupalcode.org/project/drupal
-[issue queue]: https://www.drupal.org/project/issues/drupal
-[issue forks]: https://www.drupal.org/drupalorg/docs/gitlab-integration/issue-forks-merge-requests
-[documentation]: https://www.drupal.org/documentation
-[changelog]: https://www.drupal.org/list-changes/drupal
-[modules]: https://www.drupal.org/project/project_module
-[security advisories]: https://www.drupal.org/security
-[security RSS]: https://www.drupal.org/security/rss.xml
-[security team]: https://www.drupal.org/drupal-security-team
-[service providers]: https://www.drupal.org/drupal-services
-[support]: https://www.drupal.org/support
-[trademark]: https://www.drupal.com/trademark
