@@ -2,6 +2,7 @@
 
 ## Objectives
 
+Clone this repo and refer to the reference image for the component you need to theme.
 
 You need to setup Drupal and install the site and modules using composer, then using configuration management sync the current configuration.
 In your codebase you will see a theme called “Pippip” – please do your theme work inside this folder.
