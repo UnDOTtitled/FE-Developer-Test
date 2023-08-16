@@ -1,0 +1,9 @@
+# global files used sitewide
+global:
+  version: 1.x
+  css:
+    theme:
+      dist/css/global.css: {}
+
+
+  

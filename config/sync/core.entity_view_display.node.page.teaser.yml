@@ -1,0 +1,53 @@
+uuid: 59151939-b1d2-4553-bcad-932f04e1ba24
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - field.field.node.page.field_banner_image
+    - node.type.page
+  module:
+    - smart_trim
+    - user
+_core:
+  default_config_hash: _xqK_FxJVUxBOTY4fXyHHLXI95has6zPv89FzEXMgcM
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  body:
+    type: smart_trim
+    label: hidden
+    settings:
+      trim_length: 30
+      trim_type: words
+      trim_suffix: ''
+      wrap_output: false
+      wrap_class: trimmed
+      more_link: false
+      more_class: more-link
+      more_text: More
+      summary_handler: full
+      trim_options:
+        text: false
+        trim_zero: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_banner_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

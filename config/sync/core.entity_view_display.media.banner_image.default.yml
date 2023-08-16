@@ -1,0 +1,31 @@
+uuid: da270f8f-8013-40e5-9f1e-cd992a70e652
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.banner_image.field_media_image_3
+    - image.style.large
+    - media.type.banner_image
+  module:
+    - image
+id: media.banner_image.default
+targetEntityType: media
+bundle: banner_image
+mode: default
+content:
+  field_media_image_3:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true
