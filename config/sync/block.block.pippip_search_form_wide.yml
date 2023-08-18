@@ -1,0 +1,23 @@
+uuid: b903fef4-d539-4179-9296-ee4b0a8c7a04
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - pippip
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: pippip_search_form_wide
+theme: pippip
+region: sidebar_first
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

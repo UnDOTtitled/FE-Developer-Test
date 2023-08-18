@@ -1,0 +1,18 @@
+uuid: 6a3bace5-21c6-4ced-8625-87ffa55a7651
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Homepage
+type: homepage
+description: 'Homepage to display page teasers'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

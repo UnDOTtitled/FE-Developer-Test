@@ -1,0 +1,23 @@
+uuid: 920f3b8c-1378-455e-9f67-b96747dacc3e
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - pippip
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: pippip_search_form_narrow
+theme: pippip
+region: sidebar_first
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: f74d45d8-93ff-4e9d-b6a4-987192ada618
+langcode: en
+status: false
+dependencies:
+  theme:
+    - pippip
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: pippip_page_title
+theme: pippip
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
