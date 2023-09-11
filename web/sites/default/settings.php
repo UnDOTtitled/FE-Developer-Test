@@ -760,7 +760,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
   include __DIR__ . '/settings.ddev.php';
 }
-
+$settings['config_sync_directory'] = '../config/sync';
 /**
  * Load local development override configuration, if available.
  *
