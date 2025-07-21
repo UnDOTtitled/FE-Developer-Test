@@ -7,7 +7,7 @@ Clone this repo and refer to the reference image for the component you need to t
 You need to setup Drupal [You may use DDEV/LANDO] and install the site and modules using composer, then using configuration management sync [`drush cim`] the current configuration.
 In your codebase you will see a theme called “Pippip” – please do your theme work inside this folder.
 
-Once finished please zip up your theme directory email to [robert.lambert@un.titled.co.uk](robert.lambert@un.titled.co.uk)
+Once finished please zip up your theme directory email to [Ian.Brown@cloudfy.com](Ian.Brown@cloudfy.com)
 
 Your site contains two content types:
 -	Homepage
